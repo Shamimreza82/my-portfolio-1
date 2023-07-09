@@ -8,6 +8,10 @@ hr {
     transition: 0.4s;
 }
 
+.modifi {
+    font-weight: 900;
+    color: darkcyan;
+}
 body{
     font-family: 'Inter', sans-serif;
     /* font-family: 'Open Sans', sans-serif;
@@ -47,9 +51,12 @@ li:hover {
 
 .logo-1 {
     font-size: 30px;
+    margin-left: 40px;
+   font-weight: 900;
+   color: rgb(26, 20, 21);
 }
 .btn-primary {
-    padding: 10px 25px;
+    padding: 10px 30px;
     background-color: darkcyan;
     border: none;
     border-radius: 5px;
