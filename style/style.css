@@ -14,8 +14,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 75px;
-    background-color: antiquewhite;
-    box-shadow: 2px 2px 10px rgb(219, 219, 219);
+    background-color: rgb(254, 251, 247);
+    box-shadow: 2px 2px 10px rgb(220, 220, 220);
+    position: sticky;
 }
 
 li {
@@ -38,15 +39,17 @@ li {
 
 .header-container {
     height: 100vh;
-    background-color: rgb(249, 242, 234);
+    background-color: rgb(253, 251, 249);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 2px 2px 10px rgb(220, 220, 220);
+    
 }
 
 .head-text2 {
     font-size: 45px;
-    border-left: 2px solid black;
+    border-left: 2px solid darkcyan;
     padding-left: 8px;
 }
 .head-text1 {
@@ -55,4 +58,52 @@ li {
 
 .head-text3 {
     margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.scroll-1 {
+    margin-top: 20px;
+}
+
+                    /* Cards section */
+
+.mission-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.new-section {
+    text-align: center;
+    padding-top: ;
+
+}
+
+.cards-box {
+    height: 318px;
+    width: 248px;
+    box-shadow: 2px 2px 10px grey;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards-box:hover {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    border: 1px solid darkcyan ;
+    height: 320px;
+    width: 250px;
+}
+
+h3 {
+    font-size: 25px;
+    
+}
+
+.cards-test {
+    text-align: justify;
 }
