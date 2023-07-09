@@ -30,7 +30,7 @@ li {
     font-size: 30px;
 }
 .btn-primary {
-    padding: 8px 20px;
+    padding: 10px 25px;
     background-color: darkcyan;
     border: none;
     border-radius: 5px;
@@ -63,6 +63,11 @@ li {
 
 .scroll-1 {
     margin-top: 20px;
+}
+
+.icon-2 {
+    width: 30px;
+    padding-top: 30px;
 }
 
                     /* Cards section */
@@ -136,6 +141,21 @@ h3 {
 
 /* skill section 222222*/
 
+.f-text-Container {
+    height: 300px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: darkcyan ;
+    color: aliceblue;
+}
 .skill2 {
     margin-left: 80px;
+}
+
+.end-container {
+    height: 130px;
+    background-color: rgb(42, 42, 42);
+    color: aliceblue;
+    text-align: center;
 }
