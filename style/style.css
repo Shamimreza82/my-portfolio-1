@@ -123,8 +123,14 @@ li:hover {
 
 .new-section {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 90px;
+    margin-bottom: -55px;
+    color: darkcyan;
+    font-size: 45px;
+}
 
+.new-section {
+    
 }
 
 .cards-box {
@@ -188,6 +194,9 @@ h3 {
     margin-left: -150px;
 }
 
+.skill22 {
+    margin-left: 200px;
+}
 
                         /* skill section 222222*/
 
@@ -196,17 +205,30 @@ h3 {
     justify-content: space-around;
     display: flex;
     align-items: center;
-    background-color: darkcyan ;
     color: aliceblue;
+    background-image: linear-gradient(rgb(3, 149, 149), rgb(255, 255, 255));
+    background-size: cover;
+    background-image: url("/images/background.jpg");
+    background-position: center;
+
 }
-.skill2 {
-    margin-left: 80px;
-}
+
+
+
 
 .end-container {
     height: 130px;
     background-color: rgb(42, 42, 42);
     color: aliceblue;
     text-align: center;
-    background-image: linear-gradient(rgb(0, 139, 139), rgb(253, 255, 255));
+
+}
+
+.bg-image {
+
+}
+
+.bg-image {
+    width: 100%;
+    filter: blur(7px);
 }
